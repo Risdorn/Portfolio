@@ -1,4 +1,5 @@
 import avatar from '../assets/images/avatar.jpg';
+import resume from '../assets/resume/IISc_Rishabh Indoria_MLAI_v2.pdf'
 // import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
 
@@ -21,9 +22,25 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
+            text: 'About',
+            href: '/about'
+        },
+        {
+            text: 'Experience',
+            href: '/experiences'
+        },
+        {
+            text: 'Education',
+            href: '/education'
+        },
+        {
             text: 'Projects',
             href: '/projects'
         },
+        {
+            text: 'Resume',
+            href: resume
+        }
         // {
         //     text: 'Blog',
         //     href: '/blog'
@@ -80,7 +97,7 @@ const siteConfig: SiteConfig = {
     //     }
     // },
     // postsPerPage: 8,
-    projectsPerPage: 8
+    projectsPerPage: 8,
 };
 
 export default siteConfig;
