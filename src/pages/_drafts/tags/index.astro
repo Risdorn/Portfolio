@@ -1,9 +1,9 @@
 ---
 import { getCollection } from 'astro:content';
 import ArrowRight from '../../assets/icons/arrow-right.svg';
-import Subscribe from '../../components/Subscribe.astro';
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getAllTags, getPostsByTag, sortItemsByDateDesc } from '../../utils/data-utils';
+import Subscribe from '../../../components/Subscribe.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getAllTags, getPostsByTag, sortItemsByDateDesc } from '../../../utils/data-utils';
 
 const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
 const tags = getAllTags(posts).sort((tagA, tagB) => {

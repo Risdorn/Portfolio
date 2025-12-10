@@ -1,43 +1,51 @@
 ---
-title: About
+title: About Me
 seo:
   title: About Me
   description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
-  image:
-    src: '../../assets/images/about.jpg'
-    alt: A person sitting at a desk in front of a computer
 ---
 
-![Alt text for image](../../assets/images/about.jpg)
+## Rishabh Indoria – ML / AI Engineer
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Greetings!** I'm an **ML/AI Engineer** focused on building **end-to-end intelligent systems**, from data ingestion and modeling to deployment and real-world integration. My work spans agentic **AI**, **computer vision**, and **applied machine learning**, with an emphasis on robustness, scalability, and practical impact.
 
-## Ethan Donovan - Web Developer based in Estonia
+Across my projects, I’ve built systems involving **knowledge graphs with reasoning**, **Vision Transformers under resource constraints**, and **predictive models trained on large, noisy datasets**, bridging the gap between ML research concepts and production-ready implementations.
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+## Core Expertise
 
-## Skills and Expertise
+### Machine Learning & AI
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+- Deep Learning, Classical ML
+- NLP, Knowledge Graphs, Retrieval-Augmented Systems
+- Computer Vision, Vision Transformers
+
+### Systems & Engineering
+
+- Python, PyTorch, TensorFlow
+- FastAPI, ML model serving
+- End-to-end ML pipelines & inference systems
+
+### Data & Modeling
+
+- Feature engineering (numeric, categorical, text)
+- Large-scale dataset handling
+- Model evaluation & optimization
 
 ## Innovation and Problem-Solving
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
-
-## Global Perspective, Local Impact
-
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+I enjoy tackling complex, ill-defined problems and turning them into clean, reproducible, and deployable solutions. Whether it’s optimizing models for latency, designing fault-tolerant pipelines, or simplifying complex ML workflows, I prioritize clarity, reliability, and impact.
 
 ## Continuous Learning
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
+The ML landscape evolves quickly, and I continuously explore new architectures, tools, and ideas, particularly in agentic systems, transformers, and scalable ML engineering, to improve both model performance and system design.
 
 ## Collaboration and Communication
 
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
+I value clear communication and structured collaboration. Building strong AI systems often requires aligning ML, engineering, and product thinking. I enjoy working at that intersection.
 
 ## Get in Touch
 
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
+Interested in agentic AI systems, applied ML, or production-grade AI pipelines?
+I’m always open to conversations around meaningful ML work and real-world AI deployment.
 
-_Let's build something amazing together!_
+_Let’s build intelligent systems that make an impact!_
