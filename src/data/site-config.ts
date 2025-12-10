@@ -1,4 +1,5 @@
 import avatar from '../assets/images/avatar.jpg';
+import preview from '../assets/images/preview.jpg'
 import resume from '../assets/resume/IISc_Rishabh Indoria_MLAI_v2.pdf'
 // import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
@@ -13,8 +14,8 @@ const siteConfig: SiteConfig = {
     subtitle: 'Building End-to-End AI Systems for Real-World Applications',
     description: 'ML/AI Engineer working on agentic systems, vision models, and production-grade machine learning pipelines.',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: preview,
+        alt: 'Rishabh Indoria - Portfolio'
     },
     headerNavLinks: [
         {
@@ -78,10 +79,6 @@ const siteConfig: SiteConfig = {
     hero: {
         title: 'Hi There!',
         text: "I'm **Rishabh Indoria**, an ML/AI Engineer passionate about building **end-to-end AI systems** for real-world applications.\nI specialize in designing, training, and deploying machine learning models, from data preprocessing and model optimization to production-ready pipelines.\nI enjoy experimenting with deep learning architectures, NLP, computer vision, and scalable AI solutions.\n\nFeel free to explore some of my AI projects on [GitHub](https://github.com/Risdorn) or connect with me on [LinkedIn](https://www.linkedin.com/in/rishabh-indoria-687929205/).",
-        // image: {
-        //     src: hero,
-        //     alt: 'A person sitting at a desk in front of a computer'
-        // },
         actions: [
             {
                 text: 'Download Resume',
