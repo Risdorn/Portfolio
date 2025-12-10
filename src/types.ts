@@ -7,6 +7,7 @@ export type ImageInput = {
 export type Link = {
     text: string;
     href: string;
+    target?: string;
 };
 
 export type Hero = {

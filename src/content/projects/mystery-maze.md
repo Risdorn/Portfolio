@@ -7,6 +7,8 @@ publishDate: 'July 8 2024'
 **Project Overview:**
 Mystery Maze is a thrilling single-player adventure game developed in Java. Players explore procedurally generated mazes, face enemies and obstacles, and uncover hidden paths and treasures. The game emphasizes strategic thinking, problem-solving, and exploration, offering a captivating experience for players of all ages.
 
+**Project source code**: [https://github.com/Risdorn/Mystery-Maze-Gameathon](https://github.com/Risdorn/Mystery-Maze-Gameathon)
+
 ## Objectives
 
 1. Develop an engaging 2D maze adventure game with interactive elements.
@@ -15,10 +17,10 @@ Mystery Maze is a thrilling single-player adventure game developed in Java. Play
 
 ## Features
 
-1. **Single-Player Mode:** Navigate through challenging mazes solo.
-2. **Hidden Secrets:** Discover hidden paths, keys, and treasure chests.
-3. **Obstacle Interaction:** Use bombs strategically to remove spikes and defeat enemies.
-4. **Procedural Maze Generation:** Each level is unique, ensuring high replayability and exploration.
+1. **Single-Player Mode**: Navigate through challenging mazes solo.
+2. **Hidden Secrets**: Discover hidden paths, keys, and treasure chests.
+3. **Obstacle Interaction**: Use bombs strategically to remove spikes and defeat enemies.
+4. **Procedural Maze Generation**: Each level is unique, ensuring high replayability and exploration.
 
 ## Technology Stack
 

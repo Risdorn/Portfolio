@@ -8,6 +8,8 @@ isFeatured: True
 **Project Overview:**
 AeroCluster is a scalable, resilient framework designed for managing drone swarms equipped with Vision Transformers (ViTs). By adopting a distributed master-sensing architecture, AeroCluster enables compute-intensive vision tasks such as object detection and depth estimation while maintaining real-time coordination across the swarm. The framework dynamically balances workloads, handles drone failures, and ensures low-latency decision-making, allowing drones to navigate complex environments efficiently.
 
+**Project source code**: [https://github.com/kautuk-astu/ssds-aerocluster](https://github.com/kautuk-astu/ssds-aerocluster)
+
 ## Objectives
 
 1. Enable real-time deployment of Vision Transformers on drones with limited computational resources.
@@ -17,30 +19,30 @@ AeroCluster is a scalable, resilient framework designed for managing drone swarm
 
 ## Features
 
-1. Master-Sensing Architecture:
+1. **Master-Sensing Architecture**:
 
-- Master drone coordinates the swarm and fuses inference outputs from sensing drones.
-- Sensing drones run ViT models for object detection and depth estimation.
+    - Master drone coordinates the swarm and fuses inference outputs from sensing drones.
+    - Sensing drones run ViT models for object detection and depth estimation.
 
-2. Health-Driven Task Reassignment:
+2. **Health-Driven Task Reassignment**:
 
-- Each drone computes a real-time health metric based on battery, RAM, and VRAM.
-- Tasks are reassigned dynamically to drones with the highest available health.
+    - Each drone computes a real-time health metric based on battery, RAM, and VRAM.
+    - Tasks are reassigned dynamically to drones with the highest available health.
 
-3. Fault Tolerance and Leader Election:
+3. **Fault Tolerance and Leader Election**:
 
-- In case of a master failure, the next healthiest drone assumes leadership via a decentralized handoff protocol.
-- Model replication ensures that ViT inference continues uninterrupted.
+    - In case of a master failure, the next healthiest drone assumes leadership via a decentralized handoff protocol.
+    - Model replication ensures that ViT inference continues uninterrupted.
 
-4. Real-Time Coordination and Low-Latency Communication:
+4. **Real-Time Coordination and Low-Latency Communication**:
 
-- Multiple communication channels handle commands, model data, health updates, and fleet-wide messaging.
-- Ensures minimal latency in navigation, inference, and swarm coordination.
+    - Multiple communication channels handle commands, model data, health updates, and fleet-wide messaging.
+    - Ensures minimal latency in navigation, inference, and swarm coordination.
 
-5. Scalability:
+5. **Scalability**:
 
-- Supports seamless integration of new drones and additional ViT-based models.
-- Maintains performance and load balancing regardless of swarm size or workload density.
+    - Supports seamless integration of new drones and additional ViT-based models.
+    - Maintains performance and load balancing regardless of swarm size or workload density.
 
 ## Technology Stack
 

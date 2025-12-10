@@ -39,7 +39,8 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Resume',
-            href: resume
+            href: resume,
+            target: '_blank'
         }
         // {
         //     text: 'Blog',
@@ -83,9 +84,14 @@ const siteConfig: SiteConfig = {
         // },
         actions: [
             {
+                text: 'Download Resume',
+                href: resume,
+                target: "_blank"
+            },
+            {
                 text: 'Get in Touch',
                 href: '/contact'
-            }
+            },
         ]
     },
     // subscribe: {

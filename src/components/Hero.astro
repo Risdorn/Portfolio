@@ -30,7 +30,7 @@ const { title, image, text, actions } = Astro.props;
             {actions && actions.length > 0 && (
                 <div class="flex flex-wrap gap-4">
                     {actions.map((action) => (
-                        <Button href={action.href}>{action.text}</Button>
+                        <Button href={action.href} target={action.target}>{action.text}</Button>
                     ))}
                 </div>
             )}

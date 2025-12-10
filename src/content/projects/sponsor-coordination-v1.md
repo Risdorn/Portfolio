@@ -7,6 +7,8 @@ publishDate: 'July 24 2024'
 **Project Overview:**
 The Sponsorship Influencer Coordination Platform (v1) provides a straightforward solution for sponsors and influencers to collaborate on campaigns. Sponsors can create advertising campaigns, while influencers browse, accept, or negotiate requests. With secure authentication, SQL-based data management, and basic visual analytics, the platform simplifies the sponsorship workflow while maintaining security and scalability.
 
+**Project source code**: [https://github.com/Risdorn/Sponsorship-Coordination-Platform-v1](https://github.com/Risdorn/Sponsorship-Coordination-Platform-v1)
+
 ## Objectives
 
 1. Enable sponsors and influencers to coordinate campaigns efficiently.
@@ -15,30 +17,30 @@ The Sponsorship Influencer Coordination Platform (v1) provides a straightforward
 
 ## Features
 
-1. Sponsor Campaign Management:
+1. **Sponsor Campaign Management**:
 
-- Sponsors can create and manage advertising campaigns.
-- Campaign details and statuses are easily accessible.
+    - Sponsors can create and manage advertising campaigns.
+    - Campaign details and statuses are easily accessible.
 
-2. Influencer Coordination:
+2. **Influencer Coordination**:
 
-- Influencers can browse campaigns, accept opportunities, or negotiate terms.
-- Streamlines communication and fosters collaboration.
+    - Influencers can browse campaigns, accept opportunities, or negotiate terms.
+    - Streamlines communication and fosters collaboration.
 
-3. Secure Login:
+3. **Secure Login**:
 
-- Authentication via Flask-Login and bcrypt ensures account security.
-- User credentials are safely hashed and stored.
+    - Authentication via Flask-Login and bcrypt ensures account security.
+    - User credentials are safely hashed and stored.
 
-4. Data Persistence and Pagination:
+4. **Data Persistence and Pagination**:
 
-- SQLAlchemy ORM manages and persists application data.
-- Pagination handles large datasets efficiently for better user experience.
+    - SQLAlchemy ORM manages and persists application data.
+    - Pagination handles large datasets efficiently for better user experience.
 
-5. Data Visualization and Mock Data:
+5. **Data Visualization and Mock Data**:
 
-- Matplotlib provides basic campaign performance visualizations.
-- Faker generates test data to facilitate development and testing.
+    - Matplotlib provides basic campaign performance visualizations.
+    - Faker generates test data to facilitate development and testing.
 
 ## Technology Stack
 

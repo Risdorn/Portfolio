@@ -8,6 +8,8 @@ isFeatured: True
 **Project Overview:**
 Recipe for Rating leverages machine learning models to predict food ratings from user-submitted reviews and associated numeric and categorical data. By preprocessing text, numeric, and categorical features, the project trains multiple models to classify ratings effectively, including advanced two-stage classification strategies to handle dataset bias.
 
+**Project source code**: [https://github.com/Risdorn/Recipe-for-Rating](https://github.com/Risdorn/Recipe-for-Rating)
+
 ## Objectives
 
 1. Predict food ratings accurately using machine learning techniques.
@@ -16,26 +18,26 @@ Recipe for Rating leverages machine learning models to predict food ratings from
 
 ## Features
 
-1. Data Preprocessing:
+1. **Data Preprocessing**:
 
-- Numeric features scaled using StandardScaler.
-- Categorical features encoded with OneHotEncoder.
-- Text reviews transformed with TfidfVectorizer.
+    - Numeric features scaled using StandardScaler.
+    - Categorical features encoded with OneHotEncoder.
+    - Text reviews transformed with TfidfVectorizer.
 
-2. Model Training:
+2. **Model Training**:
 
-- Logistic Regression, Random Forest, SVM, KNN, AdaBoost, Balanced Bagging, and MLP classifiers.
-- Pipelines for each model combining preprocessing and training steps.
+    - Logistic Regression, Random Forest, SVM, KNN, AdaBoost, Balanced Bagging, and MLP classifiers.
+    - Pipelines for each model combining preprocessing and training steps.
 
-3. Two-Stage Classification:
+3. **Two-Stage Classification**:
 
-- Stage 1: Distinguish rating 5 from all others.
-- Stage 2: Classify remaining ratings (0–4).
+    - Stage 1: Distinguish rating 5 from all others.
+    - Stage 2: Classify remaining ratings (0–4).
 
-4. Evaluation & Comparison:
+4. **Evaluation & Comparison**:
 
-- Accuracy, precision, recall, and F1-score metrics.
-- Randomized Search for hyperparameter tuning of selected models.
+    - Accuracy, precision, recall, and F1-score metrics.
+    - Randomized Search for hyperparameter tuning of selected models.
 
 ## Technology Stack
 

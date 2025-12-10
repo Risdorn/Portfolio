@@ -7,6 +7,8 @@ publishDate: 'Apr 5 2025'
 **Project Overview:**
 Predicting Drive Failure focuses on using machine learning techniques to anticipate hard drive failures before they occur. By analyzing key SMART attributes and capacity metrics, the project enables proactive maintenance and reduces data loss risks. Multiple models were explored for classification and regression tasks, providing insights into the most effective predictive approaches.
 
+**Project source code**: [https://github.com/Risdorn/Predicting-Drive-Failure](https://github.com/Risdorn/Predicting-Drive-Failure)
+
 ## Objectives
 
 1. Build a predictive system to forecast hard drive failures using historical SMART data.
