@@ -1,5 +1,4 @@
 import avatar from '../assets/images/avatar.jpg';
-import preview from '../assets/images/preview.jpg'
 import resume from '../assets/resume/IISc_Rishabh Indoria_MLAI_v2.pdf'
 // import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
@@ -14,7 +13,7 @@ const siteConfig: SiteConfig = {
     subtitle: 'Building End-to-End AI Systems for Real-World Applications',
     description: 'ML/AI Engineer working on agentic systems, vision models, and production-grade machine learning pipelines.',
     image: {
-        src: preview,
+        src: '/preview.jpg',
         alt: 'Rishabh Indoria - Portfolio'
     },
     headerNavLinks: [
